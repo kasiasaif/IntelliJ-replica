@@ -15,8 +15,6 @@ html{
 }
 
 body{
-    /* height: 100vh;
-    width: 100vw; */
     margin: 0;
     
     
@@ -27,17 +25,18 @@ body{
     height: 12%;
     display: flex;
     justify-content: flex-end;
-    align-items: center;
+    align-items:center;
     justify-content: space-around;
+    letter-spacing: 1px;
 
     
     
 }
 .navList{
-    /* background-color: red; */
+    
     list-style: none;
     display: flex;
-   
+
 }  
 .loop{
     width: 42px;
@@ -48,8 +47,10 @@ body{
 
 
 #img{
-    width: 12%;
+    width: 10%;
     height: 100%;
+    margin-left: -3%;
+    cursor: pointer;
 
 
     
@@ -57,6 +58,8 @@ body{
 .title{
     color: white;
     font-size: 25px;
+    margin-left: -10%;
+    
     
     
 }
@@ -69,13 +72,17 @@ body{
 .blue{
     background-color: rgb(58, 166, 255);
     padding:10px;
-    border-radius: 25px;
+    border-radius: 20px;
     font-size: 12px;
     font-weight: bolder;
+    letter-spacing: 1px;
+    
 
-    
-    
-        
+}
+.blue:hover{
+    background-color: white;
+    border-radius: 20px;
+    color: gray;
 
 }
 .link{
@@ -106,14 +113,11 @@ a:visited {
   /* mouse over link */
 a:hover {
     background-color: white;
-    padding: 10px;;
+    padding: 10px;
     color: rgb(61, 60, 60);
     outline:0;
 }
-  /* selected link */
-/* a:active {
-    color: blue;
-} */
+
 .help{
 
     font-weight: bolder;
@@ -146,50 +150,227 @@ font-size: 20px;
 margin-bottom: 30px;
 }
 
-/* all bricketa */
-/* .block{
-display:flex; 
--webkit-flex-wrap: wrap;
--ms-flex-wrap: wrap;
-flex-wrap: wrap;
--webkit-flex-direction: row;
--ms-flex-direction: row;
-flex-direction: row;  */
 
-
-#intellij{
-    display: inline;
-    -webkit-flex-basis: 30%;
-    -ms-flex-preferred-size: 30%;
-    flex-basis: 30%;
-    max-width: 27%;
-    -webkit-flex-shrink: 0;
-    -ms-flex-negative: 0;
-    flex-shrink: 0;
-    padding-top: 30px;
-    padding-left: 15px;
-    margin-left: 10px;
+.container{
+    margin-top: 5%;
+    margin-left: 12%;
 
 }
-a:active, a:hover {
 
-
+.container:after {
+    content: "";
+    clear: both;
+    display: table;
     
-    }
+    
+
+}
+.aa {
+    background: url(images/icon/intellijgrey.png);
+    background-repeat: no-repeat; 
+    background-size: 350px;
+    width: 33%;
+    float: left;
+    background-size: 350px;
+    width: 400px;
+    height: 300px;
+    
+
+}
+.aa:hover{
+    background: url(images/icon/intellij.png);
+    background-repeat: no-repeat; 
+    background-size: 350px;
+    width: 33%;
+    float: left;
+    background-size: 350px;
+    width: 400px;
+    height: 300px;
+    
+
+}
+.bb{
+    background: url(images/icon/ruby.png);
+    background-repeat: no-repeat; 
+    width: 33%; 
+    float: left; 
+    background-size: 350px;
+    width: 400px;
+    height: 300px;
+    
+
+}
+.bb:hover{
+    background: url(images/icon/colour/ruby.png);
+    background-repeat: no-repeat; 
+    background-size: 350px;
+    width: 33%;
+    float: left;
+    background-size: 350px;
+    width: 400px;
+    height: 300px;
 
 
-/* @media screen and (max-width: 960px)
+}
+.cc {
+    background: url(images/icon/PyCharm.png);
+    background-repeat: no-repeat; 
+    width: 33%;
+    float: left;
+    background-size: 350px;
+    width: 400px;
+    height: 300px;
+    
+
+}
+.cc:hover{
+    background: url(images/icon/colour/py.png);
+    background-repeat: no-repeat; 
+    background-size: 350px;
+    width: 33%;
+    float: left;
+    background-size: 350px;
+    width: 400px;
+    height: 300px;
+}
+.dd {
+    background: url(images/icon/webstorm.png);
+    background-repeat: no-repeat; 
+    width: 33%;
+    float: left;
+    background-size: 350px;
+    width: 400px;
+    height: 300px;
+
+}
+.dd:hover{
+    background: url(images/icon/colour/webstorm.png);
+    background-repeat: no-repeat; 
+    background-size: 350px;
+    width: 33%;
+    float: left;
+    background-size: 350px;
+    width: 400px;
+    height: 300px;
+}
+.ee {
+    background: url(images/icon/phpstorm.png);
+    background-repeat: no-repeat; 
+    width: 33%;
+    float: left;
+    background-size: 350px;
+    width: 400px;
+    height: 300px;
+
+}
+.ee:hover{
+    background: url(images/icon/colour/ph.png);
+    background-repeat: no-repeat; 
+    background-size: 350px;
+    width: 33%;
+    float: left;
+    background-size: 350px;
+    width: 400px;
+    height: 300px;
+}
+.ff {
+    background: url(images/icon/appstorm.png);
+    background-repeat: no-repeat; 
+    width: 33%;
+    float: left;
+    background-size: 350px;
+    width: 400px;
+    height: 300px;
+
+}
+.ff:hover{
+    background: url(images/icon/colour/app.png);
+    background-repeat: no-repeat; 
+    background-size: 350px;
+    width: 33%;
+    float: left;
+    background-size: 350px;
+    width: 400px;
+    height: 300px;
+}
+.gg {
+    background: url(images/icon/clion.png);
+    background-repeat: no-repeat; 
+    width: 33%;
+    float: left;
+    background-size: 350px;
+    width: 400px;
+    height: 300px;
+
+}
+.gg:hover{
+    background: url(images/icon/colour/c.png);
+    background-repeat: no-repeat; 
+    background-size: 350px;
+    width: 33%;
+    float: left;
+    background-size: 350px;
+    width: 400px;
+    height: 300px;
+}
+.hh {
+    background: url(images/icon/datagrip.png);
+    background-repeat: no-repeat; 
+    width: 33%;
+    float: left;
+    background-size: 350px;
+    width: 400px;
+    height: 300px;
+
+}
+.hh:hover{
+    background: url(images/icon/colour/Screenshot\ 2021-10-01\ at\ 12.10.53.png);
+    background-repeat: no-repeat; 
+    background-size: 350px;
+    width: 33%;
+    float: left;
+    background-size: 350px;
+    width: 400px;
+    height: 300px;
+}
+.ii {
+    background: url(images/icon/goland.png);
+    background-repeat: no-repeat; 
+    width: 33%;
+    float: left;
+    background-size: 350px;
+    width: 400px;
+    height: 300px;
+
+}
+
+.ii:hover{
+    background: url(images/icon/colour/ph.png);
+    background-repeat: no-repeat; 
+    background-size: 350px;
+    width: 33%;
+    float: left;
+    background-size: 350px;
+    width: 400px;
+    height: 300px;
+}
+
+
+
+
+
+@media screen and (max-width: 960px)
 .block{
     -webkit-flex-basis: 50%;
     -ms-flex-preferred-size: 50%;
     flex-basis: 50%;
     max-width: 50%;
-    } */
+    }
 .know{
     
     margin-top: 40px;
     margin-bottom: 40;
-    margin-left: 21px;
+    margin-left: 3%;
     font-size: 30px;
     font-weight: bold;
 }
@@ -199,70 +380,56 @@ a:active, a:hover {
     font-size:25px;
     font-weight: 900;
     padding-top: 30px;
-    margin-left: 2%;
+    margin-left: 3%;
+    padding-right: 3%;
 }
 .gen2{
-margin-left: 26%;
+    margin-left: 25%;   
     
 }
 .line{
-    width: 30%;
+    width: 28%;
+    margin-left: 1%;
+    
     
 }
 .last{
 
-    /* margin-left: 20px; */
-    /* background-color: crimson; */
-    /* width: 20%; */
-
-    display: flex;
-    flex-wrap:wrap;}
+    content: "";
+    clear: both;
+    display: table;
+    margin-left:2%;}
 
 
 
-
-
+.img{ 
     
-    
-
-
-
-
-
-
-
-
-.img{  
     display: flex;
-    /* float: left; */
-    /* margin-left: 5%; */
     width: 13px;
     height: 20px;
-    /* margin-top: -5px; */
     background: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' x='0px' y='0px' width='10.1px' height='17.4px' viewBox='-300.7 388.6 10.1 17.4'%3E %3Cpath d='M-290.6,404.6l-1.4,1.4l-8-8l-0.7-0.7l0.7-0.7l8-8l1.4,1.4l-7.3,7.3L-290.6,404.6z' fill='%23636465' /%3E %3C/svg%3E") no-repeat 50% 50%;
     background-size: 100% auto;
     content: "";
     -webkit-transform: rotate(-90deg);
     -ms-transform: rotate(-90deg);
     transform: rotate(-90deg);
-    /* margin-right: 10px; */
-    
-    
+    margin-right: 5%;
 
 }
 .general{
-    /* display: table-column; */
-    list-style: none;
-    color: black;
-    cursor: pointer;
-    /* width: 200px;
-    height: 20px; */
 
-    /* flex: 15%; */
-    padding: 6px;
-    /* flex-basis:49%; */
+    list-style: none;
+    color: rgb(78, 78, 78);
+    cursor: pointer;
+    width: 34%;
+    float: left;
     display: flex;
-    align-items:flex-end;
+    align-items: center;
+    padding: 5px;
+    margin-left: 2%;
+    letter-spacing: 0.5px;
+    
+    
     
 
 
@@ -270,6 +437,7 @@ margin-left: 26%;
 .general:hover{
     background-color: rgba(238, 238, 238, 0.952);
     color: rgb(68, 68, 68);
+    
     
 }
 .navEnd{
