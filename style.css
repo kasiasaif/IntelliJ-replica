@@ -47,14 +47,20 @@ body{
 
 
 #img{
-    width: 10%;
-    height: 100%;
+    width: 5%;
+    height: 20%;
     margin-left: -3%;
     cursor: pointer;
-
+    position: relative;
+    animation-name: example;
+    animation-duration: 4s;}
+@keyframes example {
+        10%  {left:87%; top:0px; }
+        60% { left:0%; top:0px;}
+}
 
     
-}
+
 .title{
     color: white;
     font-size: 25px;
@@ -174,6 +180,7 @@ margin-bottom: 30px;
     background-size: 350px;
     width: 400px;
     height: 300px;
+    transition:  0.2s;
     
 
 }
@@ -186,6 +193,8 @@ margin-bottom: 30px;
     background-size: 350px;
     width: 400px;
     height: 300px;
+    /* transition:  0.3s; */
+    
     
 
 }
@@ -197,6 +206,7 @@ margin-bottom: 30px;
     background-size: 350px;
     width: 400px;
     height: 300px;
+    transition:  0.2s;
     
 
 }
@@ -209,7 +219,9 @@ margin-bottom: 30px;
     background-size: 350px;
     width: 400px;
     height: 300px;
-
+    /* transition:  0.3s; */
+    
+    
 
 }
 .cc {
@@ -220,6 +232,7 @@ margin-bottom: 30px;
     background-size: 350px;
     width: 400px;
     height: 300px;
+    transition:  0.2s;
     
 
 }
@@ -232,6 +245,7 @@ margin-bottom: 30px;
     background-size: 350px;
     width: 400px;
     height: 300px;
+    /* transition:  0.3s; */
 }
 .dd {
     background: url(images/icon/webstorm.png);
@@ -241,6 +255,7 @@ margin-bottom: 30px;
     background-size: 350px;
     width: 400px;
     height: 300px;
+    transition:  0.2s;
 
 }
 .dd:hover{
@@ -252,6 +267,7 @@ margin-bottom: 30px;
     background-size: 350px;
     width: 400px;
     height: 300px;
+  
 }
 .ee {
     background: url(images/icon/phpstorm.png);
@@ -261,6 +277,7 @@ margin-bottom: 30px;
     background-size: 350px;
     width: 400px;
     height: 300px;
+    transition:  0.2s;
 
 }
 .ee:hover{
@@ -272,6 +289,7 @@ margin-bottom: 30px;
     background-size: 350px;
     width: 400px;
     height: 300px;
+  
 }
 .ff {
     background: url(images/icon/appstorm.png);
@@ -281,6 +299,7 @@ margin-bottom: 30px;
     background-size: 350px;
     width: 400px;
     height: 300px;
+    transition:  0.2s;
 
 }
 .ff:hover{
@@ -292,6 +311,7 @@ margin-bottom: 30px;
     background-size: 350px;
     width: 400px;
     height: 300px;
+    
 }
 .gg {
     background: url(images/icon/clion.png);
@@ -301,6 +321,7 @@ margin-bottom: 30px;
     background-size: 350px;
     width: 400px;
     height: 300px;
+    transition:  0.2s;
 
 }
 .gg:hover{
@@ -312,6 +333,7 @@ margin-bottom: 30px;
     background-size: 350px;
     width: 400px;
     height: 300px;
+    
 }
 .hh {
     background: url(images/icon/datagrip.png);
@@ -321,6 +343,7 @@ margin-bottom: 30px;
     background-size: 350px;
     width: 400px;
     height: 300px;
+    transition:  0.2s;
 
 }
 .hh:hover{
@@ -332,6 +355,7 @@ margin-bottom: 30px;
     background-size: 350px;
     width: 400px;
     height: 300px;
+   
 }
 .ii {
     background: url(images/icon/goland.png);
@@ -341,6 +365,7 @@ margin-bottom: 30px;
     background-size: 350px;
     width: 400px;
     height: 300px;
+    transition:  0.2s;
 
 }
 
@@ -353,19 +378,20 @@ margin-bottom: 30px;
     background-size: 350px;
     width: 400px;
     height: 300px;
+   
 }
 
 
 
 
 
-@media screen and (max-width: 960px)
+/* @media screen and (max-width: 960px)
 .block{
     -webkit-flex-basis: 50%;
     -ms-flex-preferred-size: 50%;
     flex-basis: 50%;
     max-width: 50%;
-    }
+    } */
 .know{
     
     margin-top: 40px;
